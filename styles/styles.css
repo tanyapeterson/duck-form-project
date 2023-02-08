@@ -4,5 +4,28 @@ body {
     box-sizing: border-box;
     background-color: #9DBEBB;
     font-family: 'Roboto', sans-serif;
-    display: flex;
+}
+
+
+.label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+
+.input-info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
 }
