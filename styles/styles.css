@@ -4,7 +4,21 @@ body {
     box-sizing: border-box;
     background-color: #9DBEBB;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
+
+
+.form-background {
+    background-color: #BE0909;
+    max-width: 954px;
+    width: 100%;
+    height: 595px;
+    position: absolute;
+}
+
 
 
 .label {
@@ -16,6 +30,7 @@ body {
     /* identical to box height */
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    color: #FEFFFF;
 }
 
 
@@ -28,4 +43,24 @@ body {
     /* identical to box height */
     letter-spacing: 0.3em;
     color: #FDFFFF;
+    border: #9DBEBB 1px;
+}
+
+
+.send-btn {
+    background: #468189;
+    border-radius: 40px;
+    width: 202px;
+    height: 48px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
