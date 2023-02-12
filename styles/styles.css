@@ -88,11 +88,12 @@ body {
 .container-1 {
     display: flex;
     justify-content: flex-end;
+
 }
 
 
 .send-btn {
-    margin-top: 56px;
+    margin-top: 35px;
     margin-left: 65px;
     background-color: #468189;
     border-radius: 40px;
