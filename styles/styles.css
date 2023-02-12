@@ -12,6 +12,7 @@ body {
 
 
 .form-background {
+    margin-top: 65px;
     background-color: #BE0909;
     max-width: 954px;
     width: 100%;
@@ -27,7 +28,6 @@ body {
 
 .label {
     margin-left: 65px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -39,7 +39,7 @@ body {
 }
 
 
-.input-info {
+.input-info1 {
     margin-left: 65px;
     max-width: 400px;
     width: 100%;
@@ -47,24 +47,47 @@ body {
     border-top-style: hidden;
     border-left-style: hidden;
     border-right-style: hidden;
-    border-bottom-style: 1px solid #9DBEBB;
+    border-bottom: 1px solid #9DBEBB;
     background: none;
     outline: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     /* identical to box height */
     letter-spacing: 0.3em;
+}
+
+
+::placeholder {
     color: #FDFFFF;
 }
 
 
+.input-info2 {
+    margin-left: 65px;
+    width: 160px;
+    height: 72px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom: 1px solid #9DBEBB;
+    background: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.3em;
+}
+
+
+
+
 .container-1 {
     display: flex;
-    justify-content: center;
-
+    justify-content: flex-end;
 }
 
 
@@ -76,7 +99,7 @@ body {
     width: 202px;
     height: 48px;
     border: none;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
